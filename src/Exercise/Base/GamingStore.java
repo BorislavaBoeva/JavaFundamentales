@@ -8,8 +8,8 @@ public class GamingStore {
         Scanner scanner = new Scanner(System.in);
         double budget = Double.parseDouble(scanner.nextLine());
         double currentBalance = budget;
-        String input = "";
-        double GamePrice = 0;
+        String input;
+        double GamePrice;
         double totalSpent = 0;
 
         while (!"Game Time".equals(input = scanner.nextLine())) {
